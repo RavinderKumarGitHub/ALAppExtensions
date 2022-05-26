@@ -4691,22 +4691,22 @@ codeunit 18435 "Reference Invoice No. Mgt."
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeCheckRefInvNoPurchHeader(var PurchaseHeader: Record "Purchase Header"; IsHandled: Boolean)
+    local procedure OnBeforeCheckRefInvNoPurchHeader(var PurchaseHeader: Record "Purchase Header"; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeUpdateReferenceInvoiceNoPurchHeader(var PurchaseHeader: Record "Purchase Header"; IsHandled: Boolean)
+    local procedure OnBeforeUpdateReferenceInvoiceNoPurchHeader(var PurchaseHeader: Record "Purchase Header"; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeCheckRefInvNoSalesHeader(var SalesHeader: Record "Sales Header"; IsHandled: Boolean)
+    local procedure OnBeforeCheckRefInvNoSalesHeader(var SalesHeader: Record "Sales Header"; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeUpdateReferenceInvoiceNoSalesHeader(var SalesHeader: Record "Sales Header"; IsHandled: Boolean)
+    local procedure OnBeforeUpdateReferenceInvoiceNoSalesHeader(var SalesHeader: Record "Sales Header"; var IsHandled: Boolean)
     begin
     end;
 
